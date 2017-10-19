@@ -2,8 +2,11 @@
 using namespace std;
 
 int main () {
-	int nilai = 3;
+	int nilai;
 	int Nilai = 1;
+	
+	cout << "Masukkan nilai = ";
+	cin >> nilai;
 	nilai= nilai + Nilai;
 	
 	cout << nilai;
