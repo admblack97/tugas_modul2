@@ -10,7 +10,7 @@ int main () {
 	
 	cout << "Masukkan nilai kedua = ";
 	cin >> Nilai;
-	nilai= nilai + Nilai;
+	nilai= nilai - Nilai;
 	
 	cout << nilai;
 }
