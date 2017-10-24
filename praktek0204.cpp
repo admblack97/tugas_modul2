@@ -13,11 +13,13 @@ int main () {
 	// dikalikan 8 keping parket dan dibagi 1000000
 	// untuk mendapatkan hasil berkoma 
 	double JumlahBox, Parket, Pasang, Total;
-	cout<<"Luas Rumah        : "<<LR<<" m2"<<endl;
+	cout<<"Luas Rumah        :  ";
 	cin>>LR;
-	
+	cout<<"+=======================================+";
+	cout<<"	              Rincian Biaya";
+	cout<<"+=======================================+";
+	cout<<"Luas Rumah        : "<<LR<" m2"<<endl;
 	cout<<"Luas 1 Box Parket : "<<Box<<" m2"<<endl;
-	
 	JumlahBox = LR/Box;
 	// untuk mencari jumlah box yg di beli, luas rumah dikali dengan hasil luas 1 box parket
 	cout<<"Jumlah Box Parket : "<<JumlahBox<<endl;
@@ -33,5 +35,5 @@ int main () {
 	Total = Parket + Pasang;
 	// total yang harus dikeluarkan di dapat dari biaya parket ditambah biaya pasang
 	cout<<"Total Biaya(Rp)   : " <<Total<<endl;
-
+	cout<<"+=======================================+";
 }
