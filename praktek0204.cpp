@@ -20,6 +20,9 @@ int main () {
 	// untuk mencari jumlah box yg di beli, luas rumah dikali dengan hasil luas 1 box parket
 	cout<<"Jumlah Box Parket : "<<JumlahBox<<endl;
 	
+	Parket = JumlahBox * 500;
+	// perhitungan biaya parket di dapat dari jumlah box dikali dengan 1 box parket senilai 500
+	cout<<"Biaya Parket(Rp)  : "<<Parket<<endl; 
 	
 	 	
 	 
