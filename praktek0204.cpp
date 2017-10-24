@@ -4,6 +4,7 @@ using namespace std;
 
 int main () {
 	int LR=42;
+	//luas rumah
 	double LuasParket = 193*1215;
 	// perhitungan luas parket panjang * lebar
 	// 193 * 1215 = 234495
@@ -11,7 +12,8 @@ int main () {
 	// setelah dapat hasil luas parket, selanjut nya
 	// dikalikan 8 keping parket dan dibagi 1000000
 	// untuk mendapatkan hasil berkoma 
-	cout<<"Luas Rumah : "<<LR<<" m2"<<endl;
+	cout<<"Luas Rumah        : "<<LR<<" m2"<<endl;
+	cout<<"Luas 1 Box Parket : "<<1Box<<" m2"<<endl;
 
 	 	
 	 
