@@ -22,7 +22,11 @@ int main () {
 	
 	Parket = JumlahBox * 500;
 	// perhitungan biaya parket di dapat dari jumlah box dikali dengan 1 box parket senilai 500
-	cout<<"Biaya Parket(Rp)  : "<<Parket<<endl; 
+	cout<<"Biaya Parket(Rp)  : "<<Parket<<endl;
+	
+	Pasang = LR * 20;
+	// biaya pasang parket tergantung luas rumah yaitu 42 m2 dikali dengan biaya pasang tiap m2 senilai 20
+	cout<<"Biaya Pasang(Rp)  : " <<Pasang<<endl;
 	
 	 	
 	 
