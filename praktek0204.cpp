@@ -28,6 +28,8 @@ int main () {
 	// biaya pasang parket tergantung luas rumah yaitu 42 m2 dikali dengan biaya pasang tiap m2 senilai 20
 	cout<<"Biaya Pasang(Rp)  : " <<Pasang<<endl;
 	
-	 	
-	 
+	Total = Parket + Pasang;
+	// total yang harus dikeluarkan di dapat dari biaya parket ditambah biaya pasang
+	cout<<"Total Biaya(Rp)   : " <<Total<<endl;
+
 }
